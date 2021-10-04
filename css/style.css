@@ -90,6 +90,20 @@ img {
   position: relative;
 }
 
+.desktop-logo {
+  max-width: 200px;
+}
+
+.section-logo {
+  max-width: 75px;
+  max-height: 75px;
+}
+
+.nav-logo {
+  max-width: 25px;
+  max-height: 25px;
+}
+
 /*=================================================================*/
 /*                      TYPOGRAPHY                              
 /*=================================================================*/
@@ -970,7 +984,7 @@ section.home.light .social-icons li a:hover {
   z-index: 1;
 }
     .portfolio-item .details h4 {
-        color: #5E5C7F;
+        color: #F9F9FF;
         font-size: 20px;
         margin: 0 0 10px;
         padding: 0 20px;
@@ -1014,7 +1028,7 @@ section.home.light .social-icons li a:hover {
         transition: all 0.3s ease-in-out;
     }
     .portfolio-item .mask {
-        background: #f5f5f5;
+        background: #333;
         position: absolute;
         left: 0;
         top: 0;
