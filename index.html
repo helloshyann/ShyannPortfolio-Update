@@ -15,7 +15,6 @@
 	<link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <!-- Font Awesome Script -->
    <script src="https://kit.fontawesome.com/5db21ba9c6.js" crossorigin="anonymous"></script>
 
@@ -87,7 +86,7 @@
                 <li><a href="#about"><img src="img/mark-black.png" class="nav-logo" /> About</a></li>
                 <li><a href="#projects"><img src="img/mark-black.png" class="nav-logo" /> Projects</a></li>
                 <li><a href="#challenges"><img src="img/mark-black.png" class="nav-logo" /> Challenges</a></li>
-                <li><a href="#blog"><img src="img/mark-black.png" class="nav-logo" /> Blog</a></li>
+                <!-- <li><a href="#blog"><img src="img/mark-black.png" class="nav-logo" /> Blog</a></li> -->
                 <li><a href="#contact"><img src="img/mark-black.png" class="nav-logo" /> Contact</a></li>
             </ul>
         </nav>
@@ -222,67 +221,112 @@
 
         </section>
 
-<!-- Full Stack Projects -->
-<section id="projects">
+        <!-- Full Stack Projects -->
+        <section id="projects">
 
-    <!-- Title Container -->
-    <div class="container">
-        <h2 class="section-title wow fadeInUp">
-            <img src="img/mark-3d.png" class="section-logo" /> Full-Stack Projects
-        </h2>
-        <span class="wow fadeInUp">These are featured applications that I've created utilizing ASP.NET MVC and C#.</span>
+            <!-- Title Container -->
+            <div class="container">
+                <h2 class="section-title wow fadeInUp">
+                    <img src="img/mark-3d.png" class="section-logo" /> Full-Stack Projects
+                </h2>
+                <span class="wow fadeInUp">These are featured applications that I've created utilizing ASP.NET MVC and C#.</span>
 
-        <!--Project Container-->
-        <div class="container mt-3">
-            <div class="row row-cols-1 g-4">                
+                <!--Project Container-->
+                <div class="container mt-3">
+                    <div class="row row-cols-1 g-4">
+                        
+                        <!-- Project Item -->
+                        <div class="col-md-4 col-sm-6 grid-item creative design">
+                            <a href="#small-dialog1" class="work-content">
+                                <div class="portfolio-item rounded shadow-dark">
+                                    <div class="details">
+                                        <span class="term">C#, SQL, ASP.NET MVC</span>
+                                        <h4 class="title">GOBLN Bug Tracker</h4>                                    
+                                    </div>
+                                    <div class="thumb">
+                                        <img src="img/thumbnails/gobln.png" alt="Project Title" />
+                                        <div class="mask"></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div id="small-dialog1" class="white-popup zoom-anim-dialog mfp-hide text-center">
+                                
+                                <div class="row">
+                                    <div class="col">
+                                        <h2>GOBLN Bug Tracker</h2>
+                                        <h6>C# • ASP.NET MVC • PostgreSQL</h6>
+                                        <hr>
+                                        <p>
+                                            GOBLN is an issue tracking system designed to assist in the maintenance and management of projects.
+                                            This application is a cloud-based tool to provide a business solution to help better plan your work, track progress efficiently, and collaborate with your team remotely.
+                                        </p>
+                        
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="https://gobln-bug-eater.herokuapp.com" target="_blank" class="btn btn-purple">
+                                            View Live
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="https://github.com/helloshyann/BugTracker" target="_blank" class="btn btn-purple">
+                                            View Repo
+                                        </a>
+                                    </div>
+                                </div>
 
-                <!-- Project Item -->
-                <div class="col-md-4 col-sm-6 grid-item creative design">
-                    <a href="#small-dialog3" class="work-content">
-                        <div class="portfolio-item rounded shadow-dark">
-                            <div class="details">
-                                <span class="term">C#, SQL, ASP.NET MVC</span>
-                                <h4 class="title">Rolodex</h4>                                    
-                            </div>
-                            <div class="thumb">
-                                <img src="img/thumbnails/rolodex.png" alt="Project Title" />
-                                <div class="mask"></div>
                             </div>
                         </div>
-                    </a>
-                    <div id="small-dialog3" class="white-popup zoom-anim-dialog mfp-hide text-center">
-                        <div class="row">
-                            <div class="col">
-                                <h2>Rolodex</h2>
-                                <hr>
-                                <p>
-                                    Written in Microsoft's C#, utilizing an MVC design pattern, and built by applying an ASP.NET Entity Core development framework.
-                                     This rolodex features individual user accounts which can store contacts under unique categories as declared by the user. 
-                                     Featuring an email service which allows the user to group message contacts by any given category.
-                                </p>
+
+                        <!-- Project Item -->
+                        <div class="col-md-4 col-sm-6 grid-item creative design">
+                            <a href="#small-dialog3" class="work-content">
+                                <div class="portfolio-item rounded shadow-dark">
+                                    <div class="details">
+                                        <span class="term">C#, SQL, ASP.NET MVC</span>
+                                        <h4 class="title">Rolodex</h4>                                    
+                                    </div>
+                                    <div class="thumb">
+                                        <img src="img/thumbnails/rolodex.png" alt="Project Title" />
+                                        <div class="mask"></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div id="small-dialog3" class="white-popup zoom-anim-dialog mfp-hide text-center">
+                                <div class="row">
+                                    <div class="col">
+                                        <h2>Rolodex</h2>
+                                        <h6>C# • ASP.NET MVC • PostgreSQL</h6>
+                                        <hr>
+                                        <p>
+                                            An address book application featuring individual user accounts which can store contacts under unique categories as declared by the user. 
+                                            Also applying an email service which allows the user to group message contacts by any given category.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="https://hellorolodex.herokuapp.com/" target="_blank" class="btn btn-yellow">
+                                            View Live
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="https://github.com/helloshyann/MVCAddressBook" target="_blank" class="btn btn-yellow">
+                                            View Repo
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col">
-                                <a href="https://hellorolodex.herokuapp.com/" target="_blank" class="btn btn-yellow">
-                                    View Live
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="https://github.com/helloshyann/MVCAddressBook" target="_blank" class="btn btn-yellow">
-                                    View Repo
-                                </a>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
 
+                
             </div>
-        </div>
+        </section>
 
-        
-    </div>
-</section>
         <!-- Coding Challenges -->
         <section id="challenges">
 
@@ -849,6 +893,7 @@
 
     </main>
 
+    
 
 <!-- *** SCRIPTS *** -->
 <!-- *** Bootstrap 5 *** -->
@@ -871,6 +916,8 @@
 <script src="js/slick.min.js"></script>
 <script src="js/validator.js"></script>
 <script src="js/wow.min.js"></script>
+
+
 
 </body>
 </html>
