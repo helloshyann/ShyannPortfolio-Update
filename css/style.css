@@ -114,6 +114,7 @@ img {
 .award-grid img{
   border-radius: 1rem;
   box-shadow: 0px 5px 20px 0px rgba(10, 10, 10, 0.3);
+  border: 2px solid white;
 }
 
 /*=================================================================*/
@@ -984,6 +985,7 @@ section.home.light .social-icons li a:hover {
 .portfolio-item {
   position: relative;
   overflow: hidden;
+  border: 2px solid white;
 }
 .portfolio-item .thumb {
   overflow: hidden;
@@ -996,7 +998,7 @@ section.home.light .social-icons li a:hover {
   z-index: 1;
 }
     .portfolio-item .details h4 {
-        color: #F9F9FF;
+        color: #454360;
         font-size: 20px;
         margin: 0 0 10px;
         padding: 0 20px;
@@ -1007,8 +1009,8 @@ section.home.light .social-icons li a:hover {
         top: 60px;
     }
     .portfolio-item .details span.term {
-        color: #5E5C7F;
-        background: #FFFFFF;
+        color: #454360;
+        background: #f9c910;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
         font-size: 14px;
@@ -1040,7 +1042,7 @@ section.home.light .social-icons li a:hover {
         transition: all 0.3s ease-in-out;
     }
     .portfolio-item .mask {
-        background: #333;
+        background: #fff;
         position: absolute;
         left: 0;
         top: 0;
